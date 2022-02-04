@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background: palegreen;
+    width: 80vw;
+}
+
+.progress-bar{
+    width: 200px;
+    position: relative;
+    height: 20px;
+    margin-top: 4px;
+    background: transparent;
+    border:  1px solid black;
+    border-radius: 5%;
+  }
+  .progress-bar .progress{
+    height: 15px;
+    background-color: yellow;
+    width: 0;
+    border-radius: 5%;
+
+  }
